@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Course Schedule" max_length="40" name="x_260976_oracle_ed_course_schedule" type="collection">
+        <element choice="1" label="Location" max_length="15" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Wellington" sequence="1" value="wlg"/>
+                <element inactive_on_update="false" label="Auckland" sequence="2" value="akl"/>
+                <element inactive_on_update="false" label="Wellington/Auckland" sequence="3" value="wlgakl"/>
+            </choice>
+        </element>
+        <element label="Date From" mandatory="true" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element label="Date To" mandatory="true" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Course name" mandatory="true" max_length="120" name="u_string_1" type="string"/>
+    </element>
+</database>

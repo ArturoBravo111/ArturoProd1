@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Course List" max_length="40" name="x_260976_oracle_ed_course_list" type="collection">
+        <element label="Alternative name" max_length="120" name="alternative_name" type="string"/>
+        <element label="Course name" mandatory="true" max_length="120" name="course_name" type="string"/>
+        <element label="Duration" max_length="3" name="duration" type="string"/>
+        <element label="Global course code" mandatory="true" max_length="20" name="global_course_code" type="string"/>
+    </element>
+</database>
